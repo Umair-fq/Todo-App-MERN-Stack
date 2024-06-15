@@ -1,0 +1,119 @@
+/* App.css */
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+  }
+  
+  .title {
+    text-align: center;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  .input_holder {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .input_holder input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .input_holder button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .input_holder button:hover {
+    background-color: #0056b3;
+  }
+  
+  .list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  @media (max-width: 600px) {
+    .input_holder {
+      flex-direction: column;
+    }
+  
+    .input_holder input,
+    .input_holder button {
+      width: 100%;
+    }
+  }
+/* App.css */
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+  }
+  
+  .title {
+    text-align: center;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  .input_holder {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .input_holder input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .input_holder button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .input_holder button:hover {
+    background-color: #0056b3;
+  }
+  
+  .list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  @media (max-width: 600px) {
+    .input_holder {
+      flex-direction: column;
+    }
+  
+    .input_holder input,
+    .input_holder button {
+      width: 100%;
+    }
+  }
+    

@@ -1,0 +1,52 @@
+/* Add this to your App.css or a separate CSS file for the Todo component */
+
+.todo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: white;
+    border: 1px solid #eee;
+    border-radius: 4px;
+  }
+  
+  .todo input[type="text"] {
+    flex-grow: 1;
+    margin-right: 10px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .icon {
+    font-size: 20px;
+    cursor: pointer;
+    color: #666;
+    transition: color 0.3s;
+  }
+  
+  .icon:hover {
+    color: #333;
+  }
+  
+  .todo button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .todo button:hover {
+    background-color: #218838;
+  }
+  
